@@ -859,6 +859,10 @@ count: false
   are exercised by tests. Low coverage is typically a bad sign, but coverage does not equate to
   a good test.
 
+* [Minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) is
+  a reproduction of an error that uses as little code as possible while clearly demonstrating the
+  problem. This is good to establish when reporting a bug, and can often become the test.
+
 * [Property based testing](https://en.wikipedia.org/wiki/QuickCheck) writes tests as constraints,
   and generates test cases. The Python tool is [Hypothesis](https://hypothesis.works/)
 
