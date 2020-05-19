@@ -47,8 +47,33 @@ template: footer
 
 --
 
+"Unfortunately, the [...] procedure still allowed us to obtain reasonable refinement values for the wrong structures."
+
+--
+
 "We very sincerely regret [...] subsequent research efforts that were unproductive
 as a result of our original findings."
+
+---
+
+# Why do we test software?
+
+* Checking your work:
+
+  * Do you reproduce known results?
+  * Do novel inputs produce reasonable outputs?
+
+--
+
+* Clarity
+
+  * The test is an alternative specification of the tested code
+
+--
+
+* Assurance
+
+  * Make changes with the confidence that your tests will catch unintended consequences
 
 ---
 
@@ -816,6 +841,22 @@ class: center middle
 # Questions?
 
 ##### [effigies.github.io/testing-scientific-software](https://effigies.github.io/testing-scientific-software)
+
+
+---
+layout: true
+class: extra
+
+---
+count: false
+
+# Other testing approaches
+
+* [Property based testing](https://en.wikipedia.org/wiki/QuickCheck) writes tests as constraints,
+  and generates test cases.
+
+* [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing) provides structured but randomized data to find
+  edge cases in logic.
 
 
 [unittest]: https://docs.python.org/3/library/unittest.html
