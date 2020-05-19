@@ -850,10 +850,17 @@ class: extra
 ---
 count: false
 
-# Other testing approaches
+# Additional concepts
+
+* Documentation tests ([doctests](https://en.wikipedia.org/wiki/Doctest)) are tests of the
+  code within the method's docstring (initial comment)
+
+* [Code coverage](https://en.wikipedia.org/wiki/Code_coverage) measures percent of lines that
+  are exercised by tests. Low coverage is typically a bad sign, but coverage does not equate to
+  a good test.
 
 * [Property based testing](https://en.wikipedia.org/wiki/QuickCheck) writes tests as constraints,
-  and generates test cases.
+  and generates test cases. The Python tool is [Hypothesis](https://hypothesis.works/)
 
 * [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing) provides structured but randomized data to find
   edge cases in logic.
